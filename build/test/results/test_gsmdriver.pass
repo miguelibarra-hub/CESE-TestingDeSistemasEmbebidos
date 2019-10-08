@@ -1,0 +1,36 @@
+---
+:source:
+  :path: test
+  :file: test_gsmdriver.c
+:successes:
+- :test: test_inicializacion_uart_gsm
+  :line: 88
+  :message: ''
+- :test: test_deteccion_y_sincronizacion_inicial_modulo_gsm
+  :line: 99
+  :message: ''
+- :test: test_configuracion_modulo_gsm
+  :line: 119
+  :message: ''
+- :test: test_send_sms_message
+  :line: 156
+  :message: ''
+- :test: test_send_sms_with_module_timeout
+  :line: 206
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 5
+  :passed: 5
+  :failed: 0
+  :ignored: 0
+:stdout:
+- Driver - SYNCRO OK
+- Driver - GSM ATE0 OK
+- Driver - GSM +CREG OK
+- 'Test SMS '
+- Driver - AT+CMGF=1 OK
+- Driver - AT+CMGS OK
+- 'Test SMS '
+:time: 0.0028225099958945066

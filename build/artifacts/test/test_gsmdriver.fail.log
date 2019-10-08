@@ -1,0 +1,6 @@
+Driver - SYNCRO OK
+Driver - GSM ATE0 OK
+Driver - GSM +CREG OK
+Test SMS 
+Driver - AT+CMGF=1 OK
+Driver - AT+CMGS OK
